@@ -9,11 +9,9 @@ public class HW3_2 {
         if (days > 0) {
             if (days <= 5) {
                 charge = days * 1;
-            }
-            else if (days >= 6 && days <= 10) {
+            } else if (days >= 6 && days <= 10) {
                 charge = days * 1.5;
-            }
-            else if (days >= 11) {
+            } else if (days >= 11) {
                 charge = days * 2;
             }
         } else {
@@ -25,4 +23,6 @@ public class HW3_2 {
         }
         System.out.println("Charge is: $" + charge);
     }
+
 }
+
